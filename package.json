@@ -2,7 +2,7 @@
   "name": "insight-lite-api",
   "description": "A Litecoin blockchain REST and web socket API service for Litecore Node.",
   "version": "0.4.4",
-  "repository": "git://github.com/litecoin-project/insight-lite-api.git",
+  "repository": "git://github.com/supick/insight-lite-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/litecoin-project/insight-lite-api/issues"
+    "url": "https://github.com/supick/insight-lite-api/issues"
   },
-  "homepage": "https://github.com/litecoin-project/insight-lite-api",
+  "homepage": "https://github.com/supick/insight-lite-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,7 +61,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "litecore-lib": "^0.13.22",
+    "litecore-lib": "https://github.com/supick/litecore-lib.git",
     "litecore-message": "^1.0.5",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
